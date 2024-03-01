@@ -552,12 +552,9 @@ a[data-fancybox] img {
   margin-right: 10px;
 }
 
-#profile .network-icon li {
-  display: inline-block; /* Display the list items inline */
-  margin-right: 10px; /* Add some margin between the icons */
+#profile .network-icon li:last-of-type {
+  margin-right: 0;
 }
-
-
 
 #profile .network-icon li:hover {
   transform: scale(1.2)
